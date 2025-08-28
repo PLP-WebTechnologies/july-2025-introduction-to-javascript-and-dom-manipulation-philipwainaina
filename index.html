@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JavaScript Fundamentals Demo</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <h1>JavaScript Fundamentals Demo</h1>
+
+  <!-- Part 1: Simple user-input demo -->
+  <section>
+    <h2>Part 1, Basic Variables & Conditionals</h2>
+    <label>Enter your age: <input type="number" id="ageInput" min="0"/></label>
+    <button id="ageBtn">Check Age</button>
+    <p id="ageMsg"></p>
+  </section>
+
+  <!-- Part 2: Re-usable functions demo -->
+  <section>
+    <h2>Part 2, Functions</h2>
+    <button id="totalBtn">Calculate Total Price</button>
+    <p id="totalMsg"></p>
+
+    <label>Type any text: <input type="text" id="formatInput"/></label>
+    <button id="formatBtn">Format & Display</button>
+    <p id="formatMsg"></p>
+  </section>
+
+  <!-- Part 3: Loop examples -->
+  <section>
+    <h2>Part 3, Loops</h2>
+    <button id="loopBtn1">Generate 1-to-10 List</button>
+    <ul id="list1"></ul>
+
+    <button id="loopBtn2">Build a 5-second Countdown</button>
+    <p id="countdown"></p>
+
+    <button id="loopBtn3">Sum of Array Elements</button>
+    <p id="sumMsg"></p>
+  </section>
+
+  <!-- Part 4: DOM interactions -->
+  <section>
+    <h2>Part 4, DOM Manipulation</h2>
+
+    <!-- DOM interaction 1: toggle a class -->
+    <button id="toggleBtn">Toggle Highlight on Next Paragraph</button>
+    <p id="toToggle">This paragraph can be highlighted.</p>
+
+    <!-- DOM interaction 2: change text on click -->
+    <button id="changeTextBtn">Change My Text</button>
+    <p id="textTarget">Original text.</p>
+
+    <!-- DOM interaction 3: create elements on the fly -->
+    <button id="addBtn">Add a Random Color Box</button>
+    <div id="boxHolder"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
